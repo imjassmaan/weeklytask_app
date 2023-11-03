@@ -10,7 +10,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your APP Name"
+        android:text="Theme app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="by Your Name"
+        android:text="by Jaskaran Singh Maan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -30,7 +30,7 @@
         android:id="@+id/version_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="version"
+        android:text="@string/version.tag"
         android:textColor="#AFACAC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +39,7 @@
     <ScrollView
         android:layout_width="417dp"
         android:layout_height="530dp"
+        android:backgroundTint="#AC2222"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,13 +56,10 @@
                 android:layout_width="match_parent"
 
                 android:layout_height="wrap_content"
-                android:text="Bio" />
-
-            <Button
-                android:id="@+id/task1Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Task 1" />
+                android:background="#771818"
+                android:text="enter from here"
+                android:textColorHighlight="#AF7B7B"
+                android:textColorLink="#D14444" />
 
             <ImageView
                 android:id="@+id/starImageView"
@@ -70,6 +68,12 @@
                 android:background="#9C27B0"
 
                 app:srcCompat="@android:drawable/btn_star_big_off" />
+
+            <Button
+                android:id="@+id/task1Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="screen 1" />
         </LinearLayout>
     </ScrollView>
 

@@ -4,7 +4,7 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/tealPastel</item>
-        <item name="colorPrimaryDark">@color/tealDarkPastel</item>
+        <item name="colorPrimaryDark">#C87E11</item>
         <item name="colorAccent">@color/magentaPastel</item>
     </style>
 

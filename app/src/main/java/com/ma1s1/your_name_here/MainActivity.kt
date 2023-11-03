@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         var value_from_main_activity  = "1234ABC"
 
         bioButton.setOnClickListener{
-            var bioIntent = Intent(this, BioActivity::class.java)
+            var bioIntent = Intent(this,screen2::class.java)
             startActivity(bioIntent)
         }
 

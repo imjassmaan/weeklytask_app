@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Weekly Tasks</string>
+    <string name="version.tag">fullreleaseversion</string>
 </resources>
